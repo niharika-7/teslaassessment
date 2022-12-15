@@ -1,0 +1,20 @@
+{
+  "name": "tesla",
+  "version": "1.0.0",
+  "description": "This is a server that responds to get/post/delete requests from the internet and works using Blob datatype",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "niharika pothana",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1273.0",
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "path": "^0.12.7",
+    "serverless-http": "^3.1.0"
+  }
+}
